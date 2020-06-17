@@ -1,0 +1,5 @@
+fruit: 0
+racecar: 2
+dang: 0
+RACECAR: 2
+dang: 0

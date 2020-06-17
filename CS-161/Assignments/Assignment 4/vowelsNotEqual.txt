@@ -1,0 +1,3 @@
+This is my practice string. It has words like things, stuff, beans, 
+flowers, couch, tools, bagels, fruit, vegetables and high fructose corn syrup.
+Good stuff.
