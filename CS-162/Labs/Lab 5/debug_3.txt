@@ -1,0 +1,17 @@
+How I fixed debug_3.cpp:
+
+I ran it through GDB and made a breakpoint at main. I used step to gough through line by line.
+
+I encountered a problem right after line 57. I looked into the document and noticed the indent on line 64/line 63 had no semicolon. 
+I turned these into one line. 
+
+Then I ran GDB again and still got issues around line 57 by stepping. I realized that the do while loop went on until the end of the file
+rather than the amount of lines in the file> I justed n > i  as the new while condition.
+
+Then I realized the person is being incremented too. I made person[i] and incremented I AFTER the person was already assigned to new_person
+
+I ran the output file and it worked but gave a maxium person age of 0. I looked into the maximum age function and switched the
+max > person.age to max < person.age on line 93
+
+I also realized that some of the IDs had numbers and that 0 was being outputted as the last three ages because of it. I changed the ID variable to be a string and
+now everything works.

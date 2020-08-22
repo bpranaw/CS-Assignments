@@ -1,0 +1,9 @@
+How I fixed debug_1.txt:
+
+I ran it first and saw the segmentation fault.
+
+I then used GDB to make a breakpoint at main and ran it step by step.
+
+I found that the error came right after line 19. I saw that in line 21, the int pointer b was used without it
+pointing to something. I made it point to a and changed the *b to a b in the print statement so it would be
+correct.

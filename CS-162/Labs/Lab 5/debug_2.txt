@@ -1,0 +1,13 @@
+How I figured out the issue in debug_2:
+
+I used GDB to make a breakpoint at main.
+
+I then ran to the breakpoint and used step to go through line by line
+
+Then when it came to the factorial function, I used print to show the value of the variables
+
+I used step to continue running through the factorial loop and kept checking the values of n and fact
+
+I noticed it was multiplying it all by zero at the end. Then to fix this, I changed the n-- to n - 1 and put hte decrement in the loop itself
+
+
