@@ -2,6 +2,7 @@
 A collection of assignments for various Computer Science Classes
 
 CS 161 (OSU) - Introduction to Computer Science 1:
+
     -Identifiers and primitive data types
     -Assignment, arithmetic, logical, and relational operators
     -Expressions and statements
@@ -13,6 +14,7 @@ CS 161 (OSU) - Introduction to Computer Science 1:
     -Debugging
    
 CS 162 (OSU) - Introduction to Computer Science 2:
+
     -File I/O
     -Object-oriented programming principles
     -Program design, debugging and testing
@@ -22,7 +24,8 @@ CS 162 (OSU) - Introduction to Computer Science 2:
     -Linear data structures
     -Debugging and testing
     
-CS 260 (PCC) - Data Structures
+CS 260 (PCC) - Data Structures:
+
     -Data Structures
     -Doubly Linked Lists
     -Queues (including array based and linked list based implementations)
